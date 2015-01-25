@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">norimori.lifecounter</string>
+    <string name="action_settings">Settings</string>
+    <string name="player1Life">P1: 20</string>
+    <string name="player2Life">P2: 20</string>
+    <string name="player3Life">P3: 20</string>
+    <string name="player4Life">P4: 20</string>
+    <string name="plus1_buttontext">+</string>
+    <string name="minus1_buttontext">-</string>
+    <string name="plus5_buttontext">+5</string>
+    <string name="minus5_buttontext">-5</string>
+    <string name="loseMessageP1">"Player 1 LOSES!"</string>
+    <string name="loseMessageP2">"Player 2 LOSES!"</string>
+    <string name="loseMessageP3">"Player 3 LOSES!"</string>
+    <string name="loseMessageP4">"Player 4 LOSES!"</string>
+
+
+</resources>

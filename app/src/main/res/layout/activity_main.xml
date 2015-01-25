@@ -1,0 +1,221 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/lifeCounters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/player1Life"
+                android:text="@string/player1Life"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/plus1ButtonP1"
+                android:text="@string/plus1_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/minus1ButtonP1"
+                android:text="@string/minus1_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/plus5ButtonP1"
+                android:text="@string/plus5_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/minus5ButtonP1"
+                android:text="@string/minus5_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/player2Life"
+                android:text="@string/player2Life"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/plus1ButtonP2"
+                android:text="@string/plus1_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/minus1ButtonP2"
+                android:text="@string/minus1_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/plus5ButtonP2"
+                android:text="@string/plus5_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/minus5ButtonP2"
+                android:text="@string/minus5_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/player3Life"
+                android:text="@string/player3Life"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/plus1ButtonP3"
+                android:text="@string/plus1_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/minus1ButtonP3"
+                android:text="@string/minus1_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/plus5ButtonP3"
+                android:text="@string/plus5_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/minus5ButtonP3"
+                android:text="@string/minus5_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent"
+
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/player4Life"
+                android:text="@string/player4Life"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/plus1ButtonP4"
+                android:text="@string/plus1_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/minus1ButtonP4"
+                android:text="@string/minus1_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/plus5ButtonP4"
+                android:text="@string/plus5_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+            <Button
+                android:id="@+id/minus5ButtonP4"
+                android:text="@string/minus5_buttontext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/loseMessageP1"
+            android:text="@string/loseMessageP1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/loseMessageP2"
+            android:text="@string/loseMessageP2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/loseMessageP3"
+            android:text="@string/loseMessageP3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/loseMessageP4"
+            android:text="@string/loseMessageP4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:textSize="18dp"/>
+
+    </TableRow>
+
+</RelativeLayout>
